@@ -1,0 +1,281 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  font-family: sans-serif;
+  background-color: white;
+  margin: 0 auto;
+  transition: 0.73s all;
+}
+
+.btn {
+  background-color: #ffac1c;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  font-weight: bolder;
+  color: rgb(5, 5, 114);
+  transition: 0.73s ease-in-out;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(5, 5, 114);
+}
+
+.head {
+  height: 50px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.logo {
+  float: left;
+  font-size: 30px;
+  color: rgb(5, 5, 114);
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+}
+
+.navbar {
+  float: right;
+  position: absolute;
+  top: 15px;
+  left: 500px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(5, 5, 114);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.header-img {
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+.img-container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  float: right;
+}
+
+.img-container::before {
+  content: "";
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  right: 6px;
+  background-color: #ffac1c;
+  width: 104%;
+  height: 390px;
+}
+
+.header-img2 {
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+.img-container2 {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  float: left;
+}
+
+.img-container2::before {
+  content: "";
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  right: 6px;
+  background-color: #ffac1c;
+  width: 104%;
+  height: 390px;
+}
+
+.floating {
+  float: left;
+}
+
+.floating2 {
+  float: right;
+  width: 400px;
+  position: relative;
+}
+
+.info {
+  height: 500px;
+}
+
+.sub-topic {
+  text-align: center;
+}
+
+.sub-topic h3 {
+  color: rgb(5, 5, 114);
+}
+
+.line {
+  background-color: #ffac1c;
+  height: 4px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.line1 {
+  background-color: rgb(5, 5, 114);
+  height: 5px;
+  width: 100px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.misvi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 400px;
+  text-align: center;
+  flex-grow: 0.3;
+}
+
+.box h3 {
+  color: rgb(5, 5, 114);
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.box p {
+  color: rgb(5, 5, 114);
+  font-size: 20px;
+}
+
+.agency {
+  width: 400px;
+}
+
+.agency h2 {
+  font-size: 40px;
+  font-weight: 1000;
+  color: rgb(5, 5, 114);
+}
+
+.agency p {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.agency button {
+  width: 170px;
+  height: 25px;
+}
+
+.content-1 {
+  position: absolute;
+  top: 50px;
+}
+
+.content-1 h3 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(5, 5, 114);
+}
+
+.content-1 p {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  background-color: white;
+  margin-top: 20px;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+  align-self: center;
+  flex-grow: 0.25;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content button {
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+}
+
+.content1 {
+  background-color: rgb(5, 5, 114);
+  margin-top: 20px;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+  align-self: center;
+  flex-grow: 0.25;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content1 button {
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+  transition: 0.73s ease-in-out;
+}
+
+.content1 button:hover {
+  background-color: white;
+  color: rgb(5, 5, 114);
+}
+.content1 p {
+  color: white;
+}
+
+.content1 h3 {
+  color: white;
+}
